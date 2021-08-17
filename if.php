@@ -14,3 +14,17 @@ if ($isMale && $isTall) {
 } else {
     echo "Ai đấy ?";
 }
+
+echo "<br>";
+
+function findMax($a, $b, $c) {
+   if ($a >= $b && $a >= $c){
+       return $a;
+   } elseif ($b >= $a && $b >= $c){
+       return $b;
+   } else {
+       return $c;
+   }
+}
+
+echo findMax(4 , 6, 90);
