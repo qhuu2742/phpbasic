@@ -1,6 +1,6 @@
 <?php
 
-function sayHi($name, $age){
+function sayHi($name, $age){ //có thể khai báo nhiều biến trong một function
     echo "Hello $name, $age tuổi <br>";
 }
 
