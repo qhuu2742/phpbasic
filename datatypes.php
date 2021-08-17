@@ -35,7 +35,7 @@ echo $x . "<br>";
 // Một số nguyên có thể là số dương hoặc số âm.
 // Số nguyên có thể được chỉ định trong ký hiệu: thập phân (cơ số 10), thập lục phân (cơ số 16), bát phân (cơ số 8) hoặc ký hiệu nhị phân (cơ số 2)
 
-$x1 = 5473;
+$x1 = 54733;
 
 var_dump($x1);
 
