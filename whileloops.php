@@ -59,3 +59,24 @@ $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
 foreach($age as $x => $val) {
     echo "$x = $val<br>";
 }
+
+// một số ví dụ về continue và break
+
+for ($r = 0; $r <= 10; $r++ ){
+    if ( $r == 4){
+        break;
+    }
+    echo $r . '<br>';
+} //bạn muốn vòng lặp chạy đến 4 là dừng
+
+$x = 0;
+
+while($x < 10) {
+    if ($x == 4) {
+        $x++;
+        continue;
+    }
+    echo "The number is: $x <br>";
+    $x++;
+}
+
