@@ -9,7 +9,19 @@
 </head>
 <body>
 <?php include 'header.php'; ?>
-<p>Hello</p>
+<?php
+
+$title = 'Hữu quá đz!';
+$author = 'Cá';
+$wordCount = 400;
+include 'article-header.php';
+?>
+<?php
+
+include 'tools.php';
+echo $cm;
+sayHi("ok");
+?>
 <?php include 'footer.php'; ?>
 </body>
 </html>
