@@ -3,7 +3,7 @@
 // Trong PHP có những biến gọi là Superglobals
 // Có nghĩa là chúng luôn có thể truy cập được, bất kỳ phạm vi, bất kỳ hàm, class, mà k cần phải làm gì.
 
-//$GLOBALS access global variables from anywhere
+//$GLOBALS access global variables from anywhere    
 //$_SERVER holds information about headers, paths, and script locations.
 //$_REQUEST
 //$_POST
