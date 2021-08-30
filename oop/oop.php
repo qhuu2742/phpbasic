@@ -54,7 +54,7 @@ class Human{
     public $name;
     public $age;
 
-    function __construct($name,$age) //dùng __construct thay vì gọi phương thức get_name() sẽ nhanh hơn bên trêncl
+    function __construct($name,$age) //dùng __construct thay vì gọi phương thức get_name() sẽ nhanh hơn bên trên
     {
         $this->name = $name;
         $this->age = $age;
