@@ -25,3 +25,8 @@ sayHi("ok");
 <?php include 'footer.php'; ?>
 </body>
 </html>
+
+<!--Nói qua về sự khác nhau giữ include và require-->
+<!--Nếu khi import một file bằng lệnh require thì nếu chương trình bị lỗi thì lập tức trình biên dịch sẽ dừng và xuất ra-->
+<!--thông báo lỗi. Còn nếu sử dụng lệnh include thì đó chỉ là một cảnh báo nên chương trình vẫn chạy cho đến cuối chương-->
+<!--trình.-->
