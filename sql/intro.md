@@ -1,0 +1,35 @@
+# SQL là gì ?
+
+- SQL viết tắt của Structured Query Language.
+- SQL cho phép bạn truy cập vào cơ sở dữ liệu.
+- SQL trở thành tiêu chuẩn của Viện Tiêu chuẩn Quốc gia Hoa Kỳ (ANSI) vào năm 1986 và của Tổ chức Tiêu chuẩn Quốc tế (ISO) vào năm 1987
+
+# SQL có thể làm gì ?
+
+- Thực hiện các truy vấn đối với cơ sở dữ liệu.
+- Lấy dữ liệu từ cơ sở dữ liệu.
+- Chèn các bản ghi vào cơ sở dữ liệu.
+- Cập nhật bản ghi vào cơ sở dữ liệu.
+- Xóa bản ghi trong cơ sở dữ liệu.
+- Tạo cơ sở dữ liệu mới.
+- Tạo bảng mới trong cơ sở dữ liệu.
+- Tạo câu lệnh lưu trữ trong cơ sở dữ liệu.
+- Tạo các dạng view trong cơ sở dữ liệu.
+- Set các quyền trên các bảng, procedures và view.
+
+# Lưu ý nhỏ:
+
+1. Có nhiều phiên bản khác nhau của SQL
+2. Tuy nhiên, để tuân thủ tiêu chuẩn ANSI, tất cả chúng đều hỗ trợ ít nhất các lệnh chính (chẳng hạn như SELECT, UPDATE, DELETE, INSERT, WHERE) theo cách tương tự.
+
+# Sử dụng SQL trên Web Site của bạn
+###Để xây dựng một trang web hiển thị dữ liệu từ cơ sở dữ liệu, bạn sẽ cần:
+
+- MS Access, SQL Server, MySQL, ...
+- Dùng 1 ngôn ngữ (PHP, JS, C#,...)
+- Cách sử dụng SQL để lấy dữ liệu.
+- HTML/CSS cơ bản.
+
+#### Mọi bảng được chia thành các thực thể nhỏ hơn được gọi là các trường. Các trường trong bảng Khách hàng bao gồm ID Khách hàng, Tên Khách hàng, Tên Liên hệ, Địa chỉ, Thành phố, Mã Bưu điện và Quốc gia. Trường là một cột trong bảng được thiết kế để duy trì thông tin cụ thể về mọi bản ghi trong bảng.
+#### Bản ghi, còn được gọi là một hàng, là mỗi mục nhập riêng lẻ tồn tại trong một bảng. Ví dụ, có 91 bản ghi trong bảng Khách hàng ở trên. Bản ghi là một thực thể nằm ngang trong một bảng.
+#### Cột là một thực thể dọc trong bảng chứa tất cả thông tin được liên kết với một trường cụ thể trong bảng.
