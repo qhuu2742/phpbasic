@@ -20,7 +20,7 @@ $grades = array(
   'Giang' => '6'
 ); //index => value , index phải là duy nhất, k dc trùng
 
-$grades['Huu'] = ['A']; //như mảng bình thường, có thể sửa trc khi echo
+//$grades['Huu'] = ['1']; //như mảng bình thường, có thể sửa trc khi echo
 
 echo $grades[$_POST['student']];
 
